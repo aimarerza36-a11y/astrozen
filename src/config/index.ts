@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Muhammad Erza Aimar Rizky — Researcher & Program Support",
   author: "Muhammad Erza Aimar Rizky",
   description:
-    "Early career professional with working experience across fields of policy research, strategic communications, and sustainable development.",
+    "Early career professional with working experience across fields of international trade research, strategic communications, and sustainable development.",
   lang: "en",
   siteLogo: "/erza-small.jpg",
 
@@ -27,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Muhammad Erza Aimar Rizky",
     specialty: "Researcher & Program Support",
     summary:
-      "Early career professional with working experience across fields of policy research, strategic communications, and sustainable development.",
+      "Early career professional with working experience across fields of international trade research, strategic communications, and sustainable development.",
     email: "aimarerza36@gmail.com",
   },
   experience: [
