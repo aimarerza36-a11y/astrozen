@@ -1,0 +1,47 @@
+---
+const { education } = Astro.props;
+---
+
+<section id="education" class="px-8 py-24 lg:px-12">
+  <div class="mx-auto max-w-5xl">
+
+    <div class="mb-14">
+      <p class="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#46734b]">
+        Background
+      </p>
+
+      <h2 class="text-4xl font-bold tracking-tight text-[#171b18] sm:text-5xl">
+        Education
+      </h2>
+    </div>
+
+    <div class="space-y-10">
+      {education.map((item) => (
+        <article class="grid gap-3 border-l-2 border-[#46734b] pl-6 sm:grid-cols-[1fr_auto]">
+          <div>
+            <h3 class="text-2xl font-semibold text-[#171b18]">
+              {item.institution}
+            </h3>
+
+            <p class="mt-2 text-lg text-[#59615a]">
+              {item.degree}
+            </p>
+
+            {item.details && (
+              <ul class="mt-3 space-y-1 text-base text-[#59615a]">
+                {item.details.map((detail) => (
+                  <li>{detail}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+
+          <p class="text-sm text-[#7b837c] sm:text-right">
+            {item.period}
+          </p>
+        </article>
+      ))}
+    </div>
+
+  </div>
+</section>
