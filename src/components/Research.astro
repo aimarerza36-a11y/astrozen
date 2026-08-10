@@ -1,0 +1,49 @@
+---
+import type { SiteContent } from "@types";
+
+type Props = {
+  research: SiteContent["research"];
+};
+
+const { research } = Astro.props;
+---
+
+<section id="research" class="px-8 py-24 lg:px-12">
+  <div class="mx-auto max-w-5xl">
+
+    <div class="mb-14">
+      <p class="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#46734b]">
+        Research
+      </p>
+
+      <h2 class="text-4xl font-bold tracking-tight text-[#171b18] sm:text-5xl">
+        Selected Research
+      </h2>
+    </div>
+
+    <div class="divide-y divide-[#dfe3df] border-y border-[#dfe3df]">
+      {research.map((item) => (
+        <article class="py-8">
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+            
+            <div class="max-w-3xl">
+              <h3 class="text-xl font-semibold leading-snug text-[#171b18]">
+                {item.title}
+              </h3>
+
+              <p class="mt-2 text-base text-[#59615a]">
+                {item.publication}
+              </p>
+            </div>
+
+            <time class="shrink-0 text-sm text-[#7b837c]">
+              {item.date}
+            </time>
+
+          </div>
+        </article>
+      ))}
+    </div>
+
+  </div>
+</section>
