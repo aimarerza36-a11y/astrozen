@@ -2,7 +2,6 @@
 import "../styles/global.css";
 import Header from "@components/Header.astro";
 import { SITE_CONFIG } from "@config";
-import Footer from "@components/Footer.astro";
 
 const {
   title,
@@ -49,6 +48,5 @@ const ogImgUrl = canonicalURL + socialImage;
       <slot />
     </main>
 
-    <Footer author={author} socialLinks={socialLinks} />
   </body>
 </html>
