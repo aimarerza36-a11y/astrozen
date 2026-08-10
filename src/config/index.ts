@@ -2,7 +2,7 @@ import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Muhammad Erza Aimar Rizky — Researcher & Program Support",
-  author: "Muhammad Erza Aimar Rizky",
+  author: "Muhammad Erza Aimar Rizky (WIP)",
   description:
     "Early career professional with working experience across fields of international trade research, strategic communications, and sustainable development.",
   lang: "en",
@@ -24,7 +24,7 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Muhammad Erza Aimar Rizky",
+    name: "Muhammad Erza Aimar Rizky (WIP)",
     specialty: "Researcher & Program Support",
     summary:
       "Early career professional with working experience across fields of international trade research, strategic communications, and sustainable development.",
