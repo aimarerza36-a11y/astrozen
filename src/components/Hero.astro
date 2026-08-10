@@ -1,27 +1,41 @@
 ---
 import type { HeroProps } from "@types";
+
 type Props = HeroProps;
 
 const { name, specialty, summary, email } = Astro.props;
 ---
 
-<section class="py-24 md:py-32" id="#hero">
-  <h1
-    class="mb-1.5 font-serif text-7xl font-bold tracking-tightest text-white sm:text-8xl md:mb-0 md:text-9xl"
-  >
-    {name}
-  </h1>
-  <p
-    class="mb-9 font-serif text-4xl leading-11.5 font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
-  >
-    {specialty}
-  </p>
-  <p class="mb-16 text-base font-normal text-neutral md:text-lg">
-    {summary}
-  </p>
+<section class="flex min-h-[calc(100vh-90px)] items-center">
+  <div class="mx-auto w-full max-w-5xl px-8 py-16 lg:px-12">
+    <div class="max-w-4xl">
+      <h1
+        class="text-6xl leading-[0.95] font-medium tracking-[-0.03em] text-[#1c211d] sm:text-7xl lg:text-8xl"
+      >
+        {name}
+      </h1>
 
-  <a
-    class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff]"
-    href={`mailto:${email}`}>Get in Touch</a
-  >
+      <p
+        class="mt-5 max-w-3xl text-3xl leading-tight font-medium text-[#2f6b3f] sm:text-4xl lg:text-5xl"
+      >
+        {specialty}
+      </p>
+
+      <p
+        class="mt-6 max-w-2xl text-xl leading-relaxed text-[#59615a] sm:text-2xl"
+      >
+        {summary}
+      </p>
+
+      <div class="mt-8">
+        <a
+          class="inline-flex items-center rounded-full bg-[#2f6b3f] px-7 py-4 text-base font-medium text-white transition-all duration-200 hover:bg-[#244f30] hover:-translate-y-0.5"
+          href={`mailto:${email}`}
+        >
+          Get in Touch
+          <span class="ml-3">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </section>
