@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Early career professional with working experience across fields of international trade research, strategic communications, and sustainable development.",
   lang: "en",
-  siteLogo: "/erza-small.jpg",
+  siteLogo: "/erza pp.jpg",
 
   navLinks: [
     { text: "Experience", href: "#experience" },
