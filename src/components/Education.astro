@@ -1,4 +1,10 @@
 ---
+import type { SiteContent } from "@types";
+
+interface Props {
+  education: SiteContent["education"];
+}
+
 const { education } = Astro.props;
 ---
 
