@@ -1,15 +1,30 @@
 ---
-import { SITE_CONTENT } from "@config";
+import Header from "@components/Header.astro";
 import Hero from "@components/Hero.astro";
-import Layout from "@layouts/Layout.astro";
+import Education from "@components/Education.astro";
 import Experience from "@components/Experience.astro";
+import Opeds from "@components/OpEds.astro";
+import Research from "@components/Research.astro";
+import Awards from "@components/Awards.astro";
 import About from "@components/About.astro";
 
-import "../styles/global.css";
+import { SITE_CONFIG, SITE_CONTENT } from "@config";
 ---
 
-<Layout>
+<Header {...SITE_CONFIG} />
+
+<main>
   <Hero {...SITE_CONTENT.hero} />
+
+  <Education education={SITE_CONTENT.education} />
+
   <Experience experience={SITE_CONTENT.experience} />
-  <About {...SITE_CONTENT.about} name={SITE_CONTENT.hero.name} />
-</Layout>
+
+  <Opeds opeds={SITE_CONTENT.opeds} />
+
+  <Research research={SITE_CONTENT.research} />
+
+  <Awards awards={SITE_CONTENT.awards} />
+
+  <About {...SITE_CONTENT.about} />
+</main>
