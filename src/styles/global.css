@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-be-vietnam-pro);
-  --font-serif: var(--font-gabarito);
+  --font-sans: "EB Garamond", serif;
+  --font-serif: "EB Garamond", serif;
 
-  --color-primary: #2563eb;
-  --color-neutral: #94a3b8;
-  --color-white: #e2e8f0;
-  --color-black: #0e141b;
+  --color-primary: #2f6b3f;
+  --color-neutral: #6f756f;
+  --color-white: #1c211d;
+  --color-black: #fafaf7;
 
   --text-xs: 0.875rem;
   --text-xs--line-height: 1.125rem;
@@ -50,4 +51,14 @@
       transform: translateY(0);
     }
   }
+}
+
+body {
+  background: #fafaf7;
+  color: #1c211d;
+}
+
+::selection {
+  background: #2f6b3f;
+  color: #fafaf7;
 }
