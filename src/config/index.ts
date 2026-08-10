@@ -2,7 +2,7 @@ import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Muhammad Erza Aimar Rizky — Researcher & Program Support",
-  author: "Muhammad Erza Aimar Rizky (WIP)",
+  author: "Muhammad Erza Aimar Rizky",
   description:
     "Early-career professional with working experience across fields of international trade research, strategic communications in Asia, and sustainable development.",
   lang: "en",
@@ -25,7 +25,7 @@ navLinks: [
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Muhammad Erza Aimar Rizky (WIP)",
+    name: "Muhammad Erza Aimar Rizky",
     specialty: "Researcher & Program Support",
     summary:
       "Early-career professional with working experience across fields of international trade research, strategic communications in Asia, and sustainable development.",
@@ -37,14 +37,13 @@ export const SITE_CONTENT: SiteContent = {
       institution: "Universitas Indonesia",
       degree: "BA in International Relations",
       period: "August 2022–Present",
-      details: [
-        "Bachelor's thesis: U.S. Trade Policy After the Cold War",
-      ],
+      details: ["Bachelor's thesis: U.S. Trade Policy After the Cold War"],
     },
     {
       institution: "National Quemoy University",
       degree: "Short-term Study Abroad — International Affairs and Cross-Strait Relations",
       period: "September 2025–January 2026",
+      details: ["Funded by the New Southbound Policy Elite Study Program 2025 Scholarship"],
     },
   ],
 
