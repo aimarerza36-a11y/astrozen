@@ -38,16 +38,13 @@ export const SITE_CONTENT: SiteContent = {
       degree: "BA in International Relations",
       period: "August 2022–Present",
       details: [
-        "GPA: 3.86",
         "Bachelor's thesis: U.S. Trade Policy After the Cold War",
-        "Teaching Assistant for International Relations Theory",
       ],
     },
     {
       institution: "National Quemoy University",
       degree: "Short-term Study Abroad — International Affairs and Cross-Strait Relations",
       period: "September 2025–January 2026",
-      details: ["GPA: 4.00"],
     },
   ],
 
