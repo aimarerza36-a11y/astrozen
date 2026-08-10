@@ -220,7 +220,7 @@ export const SITE_CONTENT: SiteContent = {
       My research and writing have appeared in academic journals, think tank publications, and international media, with published works in worldwide outlets including the Global Taiwan Institute (Washington, D.C.), CSIS Indonesia, Stratsea (Singapore), Taipei Times, and the International Institute for Asian Studies at Leiden University. 
 .
     `,
-    image: "/Erza pp.jpg",
+    image: "/erza pp.jpg",
   },
 };
 
