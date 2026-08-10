@@ -1,6 +1,5 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
 import Hero from "@components/Hero.astro";
 import Education from "@components/Education.astro";
 import Experience from "@components/Experience.astro";
@@ -13,21 +12,17 @@ import { SITE_CONFIG, SITE_CONTENT } from "@config";
 ---
 
 <Layout {...SITE_CONFIG}>
-  <Header {...SITE_CONFIG} />
+  <Hero {...SITE_CONTENT.hero} />
 
-  <main>
-    <Hero {...SITE_CONTENT.hero} />
+  <About {...SITE_CONTENT.about} name={SITE_CONTENT.hero.name} />
 
-    <Education education={SITE_CONTENT.education} />
+  <Education education={SITE_CONTENT.education} />
 
-    <Experience experience={SITE_CONTENT.experience} />
+  <Experience experience={SITE_CONTENT.experience} />
 
-    <Opeds opeds={SITE_CONTENT.opeds} />
+  <Research research={SITE_CONTENT.research} />
 
-    <Research research={SITE_CONTENT.research} />
+  <Opeds opeds={SITE_CONTENT.opeds} />
 
-    <Awards awards={SITE_CONTENT.awards} />
-
-    <About {...SITE_CONTENT.about} name={SITE_CONTENT.hero.name} />
-  </main>
+  <Awards awards={SITE_CONTENT.awards} />
 </Layout>
