@@ -8,11 +8,12 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "/erza pp.jpg",
 
-  navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
-  ],
+navLinks: [
+  { text: "Experience", href: "#experience" },
+  { text: "Op-eds", href: "#opeds" },
+  { text: "Research", href: "#research" },
+  { text: "About", href: "#about" },
+],
 
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/erza-aimar/" },
@@ -30,67 +31,195 @@ export const SITE_CONTENT: SiteContent = {
       "Early-career professional with working experience across fields of international trade research, strategic communications in Asia, and sustainable development.",
     email: "aimarerza36@gmail.com",
   },
+  
+ education: [
+    {
+      institution: "Universitas Indonesia",
+      degree: "BA in International Relations",
+      period: "August 2022–Present",
+      details: [
+        "GPA: 3.86",
+        "Bachelor's thesis: U.S. Trade Policy After the Cold War",
+        "Teaching Assistant for International Relations Theory",
+      ],
+    },
+    {
+      institution: "National Quemoy University",
+      degree: "Short-term Study Abroad — International Affairs and Cross-Strait Relations",
+      period: "September 2025–January 2026",
+      details: ["GPA: 4.00"],
+    },
+  ],
+
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "KONEKSI – Australia–Indonesia Knowledge Partnership",
+      position: "Strategic Communications & Public Discourse Intern",
+      startDate: "March 2026",
+      endDate: "May 2026",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Supported end-to-end delivery of the Knowledge and Innovation Exchange (KIE) Jakarta Summit 2026.",
+        "Produced content briefs and research dissemination materials for national media, websites, and social media.",
+        "Supported field monitoring, activity documentation, stakeholder engagement, and reporting across program activities.",
+        "Worked with Gender Equality, Disability, and Social Inclusion (GEDSI) frameworks in collaborative research and grant programming.",
       ],
     },
+
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Centre for Strategic and International Studies (CSIS) Indonesia",
+      position: "Research Coder",
+      startDate: "November 2025",
+      endDate: "Present",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Assisting the Collective Violence Early Warning System (VEWS) Dataset.",
+        "Collected, verified, coded, and maintained incident-level monitoring data across five Indonesian provinces.",
       ],
     },
+
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Centre for Strategic and International Studies (CSIS) Indonesia",
+      position: "Department of International Relations Intern",
+      startDate: "May 2025",
+      endDate: "August 2025",
+      summary: [
+        "Assisted researchers with policy-oriented research, policy advocacy, and policy dissemination efforts.",
+      ],
+    },
+
+    {
+      company: "Center for International Trade Policy, Indonesian Ministry of Trade",
+      position: "Analyst Intern",
+      startDate: "January 2026",
+      endDate: "February 2026",
+      summary: [
+        "Collected data for bachelor’s thesis research.",
+        "Worked with Trade Map and GTAP and supported activities at the Center for International Trade Policy.",
+      ],
+    },
+
+    {
+      company: "Graduate School of Sustainable Development, Universitas Indonesia",
+      position: "Research Assistant",
+      startDate: "March 2025",
+      endDate: "Present",
+      summary: [
+        "Co-authored a research article published in a Scopus Q1 journal.",
+        "Drafted research proposals for research grants.",
+        "Supported event management for science conferences.",
+      ],
+    },
+
+    {
+      company: "Australian National University — Coral Bell School of Asia-Pacific Affairs",
+      position: "Research Assistant for Doctoral Candidate",
+      startDate: "December 2024",
+      endDate: "March 2025",
+      summary: [
+        "Provided technical and editing support for a 90,000-word doctoral thesis.",
+        "Conducted quality assurance reviews for ANU Style Guide compliance and technical formatting.",
+      ],
+    },
+
+    {
+      company: "Indonesia Foreign Policy Review",
+      position: "Editor-in-Chief",
+      startDate: "February 2024",
+      endDate: "Present",
+      summary: [
+        "Led the relaunch of Indonesia Foreign Policy Review as the flagship student academic journal of International Relations UI.",
+        "Collaborated with 70+ members across multiple divisions during the journal relaunch and 11th IFPR Conference.",
+        "Initiated the journal's first official website in collaboration with the Universitas Indonesia rectorate and Elsevier.",
+        "Organized the 11th IFPR Conference with 60+ attendees and 20+ presenters.",
+      ],
     },
   ],
-  projects: [
+ opeds: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      title: "Migrant Workers and Soft Power",
+      publication: "Taipei Times",
+      date: "October 2025",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      title: "Indonesia’s Homework Ahead of the CPTPP Talks",
+      publication: "Stratsea.com",
+      date: "August 2025",
+    },
+   {
+      title:  "Assessing Crucial Issues in the Indonesian Broadcasting Law Revision",
+      publication: "CSIS Indonesia – Commentaries",
+      date: "October 2025",
+    {
+      title: "Peran WTO di Tengah Ketidakpastian",
+      publication: "Pikiran Rakyat",
+      date: "July 2025",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      title: "Waspada Kebijakan Dagang Tergesa-gesa",
+      publication: "Media Indonesia",
+      date: "July 2025",
     },
   ],
+
+  research: [
+    {
+      title:
+        "Pop Goes the Identity: Tzuyu’s Return Concert and the Negotiation of Taiwanese Identity",
+      publication: "Global Taiwan Brief, Global Taiwan Institute",
+      date: "February 2026",
+    },
+    {
+      title:
+        "Environmental Behavior Driving Household E-Waste Recycling in Emerging Urban Contexts",
+      publication: "Environments (Q1), Vol. 13 No. 4",
+      date: "April 2025",
+    },
+    {
+      title:
+        "The Emerging Trend of 'Green' Resource Nationalism: Lessons from Latin America",
+      publication: "Global South Forum, FOSS UIII & LSE Global South Unit",
+      date: "May 2025",
+    },
+    {
+      title: "Tipping the Scale: China’s Disruption of U.S. AI Leadership",
+      publication: "IIS Fortnightly Review, Institute of International Studies, UGM",
+      date: "January 2025",
+    },
+  ],
+
+  awards: [
+    {
+      title: "3rd Winner of National Infographic Competition",
+      organization:
+        "EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
+      date: "November 2025",
+    },
+    {
+      title: "New Southbound Policy Elite Study Program 2025 Scholarship Awardee",
+      organization: "Ministry of Foreign Affairs, Republic of China (Taiwan)",
+      date: "July 2025",
+    },
+    {
+      title:
+        "2nd Winner of Social Science and Humanities Research Proposal Competition (PKM-RSH)",
+      organization: "Universitas Indonesia Student Science Olympiad 2024",
+      date: "November 2024",
+    },
+    {
+      title: "1st Winner of CASE for Southeast Asia National Essay Competition",
+      organization:
+        "Indonesian National Development Planning Agency & GIZ GmbH",
+      date: "August 2024",
+    },
+  ],
+  
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m an early-career program support and research professional working across fields of international political economy, Asian affairs, and local development policy. 
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      My research and writing have appeared in academic journals, think tank publications, and international media, with published works in worldwide outlets including the Global Taiwan Institute (Washington, D.C.), CSIS Indonesia, Stratsea (Singapore), Taipei Times, and the International Institute for Asian Studies at Leiden University. 
+.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/Erza pp.jpg",
   },
 };
 
