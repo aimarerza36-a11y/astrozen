@@ -1,12 +1,11 @@
 ---
-import { Image } from "astro:assets";
-import type { AboutProps } from "@types";
+import type { OpedProps } from "@types";
 
-type Props = AboutProps & {
-  name: string;
-};
+interface Props {
+  opeds: OpedProps[];
+}
 
-const { description, image, name } = Astro.props;
+const { opeds } = Astro.props;
 ---
 
 <section id="about" class="border-t border-[#dfe4df] py-20 sm:py-24">
