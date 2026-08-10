@@ -145,9 +145,10 @@ export const SITE_CONTENT: SiteContent = {
       date: "August 2025",
     },
    {
-      title:  "Assessing Crucial Issues in the Indonesian Broadcasting Law Revision",
+      title: "Assessing Crucial Issues in the Indonesian Broadcasting Law Revision",
       publication: "CSIS Indonesia – Commentaries",
       date: "October 2025",
+    },
     {
       title: "Peran WTO di Tengah Ketidakpastian",
       publication: "Pikiran Rakyat",
