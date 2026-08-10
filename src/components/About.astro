@@ -1,24 +1,43 @@
 ---
-import Section from "./Section.astro";
 import { Image } from "astro:assets";
-import type { AboutProps, HeroProps } from "@types";
+import type { AboutProps } from "@types";
 
-type Props = AboutProps & Pick<HeroProps, "name">;
+type Props = AboutProps & {
+  name: string;
+};
 
 const { description, image, name } = Astro.props;
 ---
 
-<Section text="About Me" href="about">
-  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
-    <p class="w-auto text-base text-neutral md:pr-5">{description}</p>
-    <div class="h-80 w-64 shrink-0 rotate-[5deg] bg-white p-4 md:rotate-[7deg]">
-      <Image
-        class="object-cover"
-        src={image}
-        width="260"
-        height="260"
-        alt={name}
-      />
+<section id="about" class="border-t border-[#dfe4df] py-20 sm:py-24">
+  <div class="grid gap-10 sm:grid-cols-[180px_1fr] sm:gap-10">
+
+    <div>
+      <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#2f6b3f]">
+        About
+      </p>
     </div>
+
+    <div class="max-w-3xl">
+      <div
+        class="prose prose-lg max-w-none text-[#59615a] [&_em]:text-[#1c211d] [&_em]:font-medium"
+        set:html={description}
+      />
+
+      <div class="mt-8 flex items-center gap-4">
+        <Image
+          src={image}
+          width="56"
+          height="56"
+          alt={name}
+          class="h-14 w-14 rounded-full object-cover"
+        />
+
+        <p class="text-sm font-semibold text-[#1c211d]">
+          {name}
+        </p>
+      </div>
+    </div>
+
   </div>
-</Section>
+</section>
