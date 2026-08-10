@@ -215,7 +215,7 @@ export const SITE_CONTENT: SiteContent = {
   
   about: {
     description: `
-      *Halo*, I’m an early-career program support and research professional working across fields of international political economy, Asian affairs, and local development policy. 
+      <em>Halo</em>! I’m an early-career program support and research professional working across fields of international political economy, Asian affairs, and local development policy. 
 
       My research and writing have appeared in academic journals, think tank publications, and international media, with published works in worldwide outlets including the Global Taiwan Institute (Washington, D.C.), CSIS Indonesia, Stratsea (Singapore), Taipei Times, and the International Institute for Asian Studies at Leiden University. 
     `,
