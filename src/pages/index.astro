@@ -14,8 +14,6 @@ import { SITE_CONFIG, SITE_CONTENT } from "@config";
 <Layout {...SITE_CONFIG}>
   <Hero {...SITE_CONTENT.hero} />
 
-  <About {...SITE_CONTENT.about} name={SITE_CONTENT.hero.name} />
-
   <Education education={SITE_CONTENT.education} />
 
   <Experience experience={SITE_CONTENT.experience} />
@@ -25,4 +23,6 @@ import { SITE_CONFIG, SITE_CONTENT } from "@config";
   <Opeds opeds={SITE_CONTENT.opeds} />
 
   <Awards awards={SITE_CONTENT.awards} />
+
+  <About {...SITE_CONTENT.about} name={SITE_CONTENT.hero.name} />
 </Layout>
