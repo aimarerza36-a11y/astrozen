@@ -9,36 +9,8 @@ const { description, image, name } = Astro.props;
 ---
 
 <Section text="About Me" href="about">
-  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-4">
+  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
     <p class="w-auto text-base leading-relaxed text-[#59615a] md:pr-5"><Fragment set:html={description} /></p>
     </p>
-<div class="mt-6 flex flex-wrap gap-5">
-  <a
-    href="https://www.linkedin.com/in/erza-aimar/"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="text-sm font-semibold text-[#2f6b3f] transition-colors hover:text-[#1c211d]"
-  >
-    LinkedIn ↗
-  </a>
-
-  <a
-    href="https://erza.substack.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="text-sm font-semibold text-[#2f6b3f] transition-colors hover:text-[#1c211d]"
-  >
-    Substack ↗
-  </a>
-</div>
-    <div class="h-80 w-64 shrink-0 rotate-[5deg] bg-white p-4 shadow-sm md:rotate-[7deg]">
-      <Image
-        class="h-full w-full object-cover"
-        src={image}
-        width="260"
-        height="260"
-        alt={name}
-      />
-    </div>
   </div>
 </Section>
