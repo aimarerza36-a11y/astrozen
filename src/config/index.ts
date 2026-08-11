@@ -211,11 +211,13 @@ export const SITE_CONTENT: SiteContent = {
   
   about: {
     description: `
-      Hi, I’m an early-career program support and research professional working across fields of international political economy, Asian affairs, and local development policy. 
-
-      My research and writing have appeared in academic journals, think tank publications, and international media, with published works in worldwide outlets including the Global Taiwan Institute (Washington, D.C.), CSIS Indonesia, Stratsea (Singapore), Taipei Times, and the International Institute for Asian Studies at Leiden University. 
+      I research Asia-Pacific affairs and help bridge academic research into public discourse.
+  
+      My previous writing has been featured in academic journals, international think tanks, and regional media.
+  
+      See my work on <a href="https://www.linkedin.com/in/erza-aimar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://scholar.google.com/citations?hl=id&user=Fa09tToAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>, and <a href="https://erza.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>.
     `,
-    image: "/erza pp.jpg",
+    image: "/Erza pp.jpg",
   },
 };
 
