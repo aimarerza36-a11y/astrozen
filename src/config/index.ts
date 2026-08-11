@@ -38,12 +38,14 @@ export const SITE_CONTENT: SiteContent = {
       degree: "BA in International Relations",
       period: "August 2022 — Present",
       details: ["Bachelor's thesis: U.S. Trade Policy After the Cold War"],
+      logo: "https://www.google.com/s2/favicons?domain=ui.ac.id&sz=64",
     },
     {
       institution: "National Quemoy University",
       degree: "Short-term Study Abroad — International Affairs and Cross-Strait Relations",
       period: "September 2025 — January 2026",
       details: ["Funded by the New Southbound Policy Elite Study Program 2025 Scholarship"],
+      logo: "https://www.google.com/s2/favicons?domain=nqu.edu.tw&sz=64",
     },
   ],
 
@@ -134,26 +136,31 @@ export const SITE_CONTENT: SiteContent = {
       title: "Migrant Workers and Soft Power",
       publication: "Taipei Times",
       date: "October 2025",
+      logo: "https://www.google.com/s2/favicons?domain=taipeitimes.com&sz=64",
     },
     {
       title: "Indonesia’s Homework Ahead of the CPTPP Talks",
       publication: "Stratsea.com",
       date: "August 2025",
+      logo: "https://www.google.com/s2/favicons?domain=stratsea.com&sz=64",
     },
    {
       title: "Menakar Isu-Isu Krusial dalam Revisi UU Penyiaran",
       publication: "CSIS Indonesia – Commentaries",
       date: "October 2025",
+      logo: "https://www.google.com/s2/favicons?domain=csis.or.id&sz=64",
     },
     {
       title: "Peran WTO di Tengah Ketidakpastian",
       publication: "Pikiran Rakyat",
       date: "July 2025",
+      logo: "https://www.google.com/s2/favicons?domain=pikiran-rakyat.com&sz=64",
     },
     {
       title: "Waspada Kebijakan Dagang Tergesa-gesa",
       publication: "Media Indonesia",
       date: "July 2025",
+      logo: "https://www.google.com/s2/favicons?domain=mediaindonesia.com&sz=64",
     },
   ],
 
@@ -189,6 +196,7 @@ export const SITE_CONTENT: SiteContent = {
       organization:
         "EU · EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
       date: "November 2025",
+      flag: "🇪🇺",
     },
     {
       title:
@@ -196,6 +204,7 @@ export const SITE_CONTENT: SiteContent = {
       organization:
         "TW · Ministry of Foreign Affairs, Republic of China (Taiwan)",
       date: "July 2025",
+      flag: "🇹🇼",
     },
     {
       title:
@@ -203,12 +212,14 @@ export const SITE_CONTENT: SiteContent = {
       organization:
         "ID · Universitas Indonesia Student Science Olympiad 2024",
       date: "November 2024",
+      flag: "🇮🇩",
     },
     {
       title: "1st Winner of CASE for Southeast Asia National Essay Competition",
       organization:
         "ID · Indonesian National Development Planning Agency & DE · GIZ GmbH",
       date: "August 2024",
+      flag: "🇮🇩 🇩🇪",
     },
   ],
   
