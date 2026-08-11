@@ -187,25 +187,27 @@ export const SITE_CONTENT: SiteContent = {
     {
       title: "3rd Winner of National Infographic Competition",
       organization:
-        ">EU</span> EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
+        "EU · EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
       date: "November 2025",
     },
     {
       title:
         "New Southbound Policy Elite Study Program 2025 Scholarship Awardee",
-      organization: "🇹🇼 Ministry of Foreign Affairs, Republic of China (Taiwan)",
+      organization:
+        "TW · Ministry of Foreign Affairs, Republic of China (Taiwan)",
       date: "July 2025",
     },
     {
       title:
         "2nd Winner of Social Science and Humanities Research Proposal Competition (PKM-RSH)",
-      organization: "🇮🇩 Universitas Indonesia Student Science Olympiad 2024",
+      organization:
+        "ID · Universitas Indonesia Student Science Olympiad 2024",
       date: "November 2024",
     },
     {
       title: "1st Winner of CASE for Southeast Asia National Essay Competition",
       organization:
-        "🇮🇩 Indonesian National Development Planning Agency & 🇩🇪 GIZ GmbH",
+        "ID · Indonesian National Development Planning Agency & DE · GIZ GmbH",
       date: "August 2024",
     },
   ],
