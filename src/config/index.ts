@@ -148,7 +148,7 @@ export const SITE_CONTENT: SiteContent = {
       title: "Menakar Isu-Isu Krusial dalam Revisi UU Penyiaran",
       publication: "CSIS Indonesia – Commentaries",
       date: "October 2025",
-      logo: "https://www.google.com/s2/favicons?domain=csis.or.id&sz=64",
+      logo: "https://www.google.com/s2/favicons?domain=scholar.google.com&sz=64",
     },
     {
       title: "Peran WTO di Tengah Ketidakpastian",
