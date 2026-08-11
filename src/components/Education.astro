@@ -8,9 +8,8 @@ interface Props {
 const { education } = Astro.props;
 ---
 
-<section id="education" class="py-20 sm:py-24">
+<section id="education" class="mx-auto max-w-6xl px-6 py-20 sm:px-8 sm:py-24">
   <div class="mb-12">
-
     <h2 class="text-4xl font-extrabold tracking-tight text-[#171b18] sm:text-5xl">
       Education
     </h2>
@@ -19,31 +18,29 @@ const { education } = Astro.props;
   <div class="space-y-10">
     {
       education.map((item) => (
-        <article class="border-t border-[#dfe4df] pt-7">
-          <div class="grid gap-3 sm:grid-cols-[180px_1fr] sm:gap-10">
-            <div class="text-sm font-medium text-[#6f756f]">
-              {item.period}
-            </div>
+        <article class="grid gap-3 border-t border-[#dfe4df] pt-7 sm:grid-cols-[180px_1fr] sm:gap-10">
+          <div class="text-sm font-medium text-[#6f756f]">
+            {item.period}
+          </div>
 
-            <div>
-              <h3 class="text-xl font-bold tracking-tight text-[#1c211d]">
-                {item.degree}
-              </h3>
+          <div>
+            <h3 class="text-xl font-bold tracking-tight text-[#1c211d]">
+              {item.degree}
+            </h3>
 
-              <p class="mt-1 text-base font-medium text-[#2f6b3f]">
-                {item.institution}
-              </p>
+            <p class="mt-1 text-base font-medium text-[#2f6b3f]">
+              {item.institution}
+            </p>
 
-              {
-                item.details && item.details.length > 0 && (
-                  <ul class="mt-4 space-y-2 text-[0.95rem] leading-7 text-[#59615a]">
-                    {item.details.map((detail) => (
-                      <li>{detail}</li>
-                    ))}
-                  </ul>
-                )
-              }
-            </div>
+            {
+              item.details && item.details.length > 0 && (
+                <ul class="mt-4 space-y-2 text-[0.95rem] leading-7 text-[#59615a]">
+                  {item.details.map((detail) => (
+                    <li>• {detail}</li>
+                  ))}
+                </ul>
+              )
+            }
           </div>
         </article>
       ))
