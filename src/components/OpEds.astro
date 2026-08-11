@@ -26,7 +26,15 @@ const { opeds } = Astro.props;
                 {item.title}
               </h3>
 
-              <p class="mt-4 text-base text-[#59615a]">
+              <p class="mt-4 flex items-center gap-2 text-base text-[#59615a]">
+                {item.logo && (
+                  <img
+                    src={item.logo}
+                    alt={`${item.publication} logo`}
+                    class="h-5 w-5 rounded-sm border border-[#dfe4df] bg-white object-contain p-0.5"
+                    loading="lazy"
+                  />
+                )}
                 {item.publication}
               </p>
             </div>
