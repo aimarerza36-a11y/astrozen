@@ -187,7 +187,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       title: "3rd Winner of National Infographic Competition",
       organization:
-        "🇪🇺 EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
+        ">EU</span> EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
       date: "November 2025",
     },
     {
