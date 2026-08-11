@@ -11,14 +11,14 @@ const { research } = Astro.props;
 <section id="research" class="px-8 py-24 lg:px-12">
   <div class="mx-auto max-w-5xl">
 
-    <div class="mb-14">
+    <div class="mb-12">
 
       <h2 class="text-4xl font-bold tracking-tight text-[#171b18] sm:text-5xl">
         Selected research
       </h2>
     </div>
 
-    <div class="divide-y divide-[#dfe3df] border-y border-[#dfe3df]">
+    <div class="divide-y divide-[#dfe4df] border-y border-[#dfe4df]">
       {research.map((item) => (
         <article class="py-8">
           <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -33,7 +33,7 @@ const { research } = Astro.props;
               </p>
             </div>
 
-            <time class="shrink-0 text-sm text-[#7b837c]">
+            <time class="shrink-0 text-sm text-[#59615a]">
               {item.date}
             </time>
 
