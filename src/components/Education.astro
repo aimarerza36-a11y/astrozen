@@ -28,7 +28,15 @@ const { education } = Astro.props;
               {item.degree}
             </h3>
 
-            <p class="mt-1 text-base font-medium text-[#2f6b3f]">
+            <p class="mt-1 flex items-center gap-2 text-base font-medium text-[#2f6b3f]">
+              {item.logo && (
+                <img
+                  src={item.logo}
+                  alt={`${item.institution} logo`}
+                  class="h-5 w-5 rounded-sm border border-[#dfe4df] bg-white object-contain p-0.5"
+                  loading="lazy"
+                />
+              )}
               {item.institution}
             </p>
 
