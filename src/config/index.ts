@@ -141,7 +141,7 @@ export const SITE_CONTENT: SiteContent = {
       date: "August 2025",
     },
    {
-      title: "Assessing Crucial Issues in the Indonesian Broadcasting Law Revision",
+      title: "Menakar Isu-Isu Krusial dalam Revisi UU Penyiaran",
       publication: "CSIS Indonesia – Commentaries",
       date: "October 2025",
     },
