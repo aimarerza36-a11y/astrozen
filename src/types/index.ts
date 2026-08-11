@@ -30,6 +30,7 @@ export interface EducationProps {
   degree: string;
   period: string;
   details: string[];
+  logo?: string;
 }
 
 export interface ExperienceProps {
@@ -44,6 +45,7 @@ export interface OpedProps {
   title: string;
   publication: string;
   date: string;
+  logo?: string;
 }
 
 export interface ResearchProps {
@@ -56,6 +58,7 @@ export interface AwardProps {
   title: string;
   organization: string;
   date: string;
+  flag?: string;
 }
 
 export interface ProjectProps {
