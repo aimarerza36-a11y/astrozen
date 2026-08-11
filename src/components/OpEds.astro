@@ -11,18 +11,18 @@ const { opeds } = Astro.props;
 <section id="opeds" class="mx-auto max-w-6xl px-6 py-24 sm:px-8">
   <div class="mb-12">
 
-    <h2 class="text-4xl font-extrabold tracking-tight text-[#171b18] sm:text-5xl">
+    <h2 class="text-4xl font-bold tracking-tight text-[#171b18] sm:text-5xl">
       Op-eds
     </h2>
   </div>
 
-  <div class="divide-y divide-[#e2e5e1] border-y border-[#e2e5e1]">
+  <div class="divide-y divide-[#dfe4df] border-y border-[#dfe4df]">
     {
       opeds.map((item) => (
         <article class="py-8">
           <div class="grid gap-4 md:grid-cols-[1fr_auto] md:gap-12">
             <div>
-              <h3 class="text-2xl font-bold leading-tight text-[#171b18]">
+              <h3 class="text-2xl font-semibold leading-tight text-[#171b18]">
                 {item.title}
               </h3>
 
