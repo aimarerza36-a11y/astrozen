@@ -227,7 +227,7 @@ export const SITE_CONTENT: SiteContent = {
     description: `
       I research Asia-Pacific affairs and help bridge academic research into public discourse.
   
-      My previous writing has been featured in academic journals, international think tanks, and regional media.
+      My previous writing has been featured in academic journals, international think tanks, and regional media outlets.
   
       <span class="block mt-6">See my work on <a href="https://www.linkedin.com/in/erza-aimar/" target="_blank" rel="noopener noreferrer" class="text-[#2f6b3f] underline underline-offset-4 hover:text-[#255632]">LinkedIn</a>, <a href="https://scholar.google.com/citations?hl=id&user=Fa09tToAAAAJ" target="_blank" rel="noopener noreferrer" class="text-[#2f6b3f] underline underline-offset-4 hover:text-[#255632]">Google Scholar</a>, and <a href="https://erza.substack.com/" target="_blank" rel="noopener noreferrer" class="text-[#2f6b3f] underline underline-offset-4 hover:text-[#255632]">Substack</a>.
     `,
