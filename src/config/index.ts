@@ -36,7 +36,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       institution: "Universitas Indonesia",
       degree: "BA in International Relations",
-      period: "August 2022 — Present",
+      period: "August 2022 — August 2026",
       details: ["Bachelor's thesis: U.S. Trade Policy After the Cold War"],
       logo: "https://www.google.com/s2/favicons?domain=ui.ac.id&sz=64",
     },
@@ -67,7 +67,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Centre for Strategic and International Studies (CSIS) Indonesia",
       position: "Research Coder",
       startDate: "November 2025",
-      endDate: "Present",
+      endDate: "July 2026",
       summary: [
         "Assisting the Collective Violence Early Warning System (VEWS) Dataset.",
         "Collected, verified, coded, and maintained incident-level monitoring data across five Indonesian provinces.",
@@ -122,7 +122,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Indonesia Foreign Policy Review",
       position: "Editor-in-Chief",
       startDate: "February 2024",
-      endDate: "Present",
+      endDate: "March 2026",
       summary: [
         "Led the relaunch of Indonesia Foreign Policy Review as the flagship student academic journal of International Relations UI.",
         "Collaborated with 70+ members across multiple divisions during the journal relaunch and 11th IFPR Conference.",
