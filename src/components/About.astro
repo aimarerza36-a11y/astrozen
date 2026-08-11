@@ -9,9 +9,8 @@ const { description, image, name } = Astro.props;
 ---
 
 <Section text="About Me" href="about">
-  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
-    <p class="w-auto text-base leading-relaxed text-[#59615a] md:pr-5">
-      {description}
+  <div class="flex flex-col items-center gap-12 md:flex-row md:gap-4">
+    <p class="w-auto text-base leading-relaxed text-[#59615a] md:pr-5"><Fragment set:html={description} /></p>
     </p>
 <div class="mt-6 flex flex-wrap gap-5">
   <a
