@@ -215,9 +215,9 @@ export const SITE_CONTENT: SiteContent = {
   
       My previous writing has been featured in academic journals, international think tanks, and regional media.
   
-      See my work on <a href="https://www.linkedin.com/in/erza-aimar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://scholar.google.com/citations?hl=id&user=Fa09tToAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>, and <a href="https://erza.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>.
+      See my work on <a href="https://www.linkedin.com/in/erza-aimar/" target="_blank" rel="noopener noreferrer" class="text-[#46734b] underline underline-offset-4 hover:text-[#365c3b]">LinkedIn</a>, <a href="https://scholar.google.com/citations?hl=id&user=Fa09tToAAAAJ" target="_blank" rel="noopener noreferrer" class="text-[#46734b] underline underline-offset-4 hover:text-[#365c3b]">Google Scholar</a>, and <a href="https://erza.substack.com/" target="_blank" rel="noopener noreferrer" class="text-[#46734b] underline underline-offset-4 hover:text-[#365c3b]">Substack</a>.
     `,
-    image: "/Erza pp.jpg",
+    image: "/erza pp.jpg",
   },
 };
 
