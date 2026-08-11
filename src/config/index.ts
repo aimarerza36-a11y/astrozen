@@ -45,7 +45,7 @@ export const SITE_CONTENT: SiteContent = {
       degree: "Short-term Study Abroad — International Affairs and Cross-Strait Relations",
       period: "September 2025 — January 2026",
       details: ["Funded by the New Southbound Policy Elite Study Program 2025 Scholarship"],
-      logo: "https://www.google.com/s2/favicons?domain=nqu.edu.tw&sz=64",
+      logo: "https://www.google.com/s2/favicons?domain=en.mofa.gov.tw&sz=64",
     },
   ],
 
@@ -194,7 +194,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       title: "3rd Winner of National Infographic Competition",
       organization:
-        "EU · EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
+        "EUforia Wiki4Trade, Wikimedia Indonesia & Delegation of the European Union to Indonesia",
       date: "November 2025",
       flag: "🇪🇺",
     },
@@ -202,7 +202,7 @@ export const SITE_CONTENT: SiteContent = {
       title:
         "New Southbound Policy Elite Study Program 2025 Scholarship Awardee",
       organization:
-        "TW · Ministry of Foreign Affairs, Republic of China (Taiwan)",
+        "Ministry of Foreign Affairs, Republic of China (Taiwan)",
       date: "July 2025",
       flag: "🇹🇼",
     },
@@ -210,14 +210,14 @@ export const SITE_CONTENT: SiteContent = {
       title:
         "2nd Winner of Social Science and Humanities Research Proposal Competition (PKM-RSH)",
       organization:
-        "ID · Universitas Indonesia Student Science Olympiad 2024",
+        "Universitas Indonesia Student Science Olympiad 2024",
       date: "November 2024",
       flag: "🇮🇩",
     },
     {
       title: "1st Winner of CASE for Southeast Asia National Essay Competition",
       organization:
-        "ID · Indonesian National Development Planning Agency & DE · GIZ GmbH",
+        "Indonesian National Development Planning Agency & GIZ GmbH",
       date: "August 2024",
       flag: "🇮🇩 🇩🇪",
     },
