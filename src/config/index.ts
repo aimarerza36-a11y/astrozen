@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Early-career professional with working experience across fields of international trade research, strategic communications in Asia, and sustainable development.",
   lang: "en",
-  siteLogo: "/erza pp.jpg",
+  siteLogo: "/erza-pp.jpg",
 
 navLinks: [
   { text: "Experience", href: "#experience" },
@@ -36,13 +36,13 @@ export const SITE_CONTENT: SiteContent = {
     {
       institution: "Universitas Indonesia",
       degree: "BA in International Relations",
-      period: "August 2022–Present",
+      period: "August 2022 — Present",
       details: ["Bachelor's thesis: U.S. Trade Policy After the Cold War"],
     },
     {
       institution: "National Quemoy University",
       degree: "Short-term Study Abroad — International Affairs and Cross-Strait Relations",
-      period: "September 2025–January 2026",
+      period: "September 2025 — January 2026",
       details: ["Funded by the New Southbound Policy Elite Study Program 2025 Scholarship"],
     },
   ],
@@ -218,10 +218,8 @@ export const SITE_CONTENT: SiteContent = {
   
       My previous writing has been featured in academic journals, international think tanks, and regional media.
   
-      <span class="block mt-6">See my work on <a href="https://www.linkedin.com/in/erza-aimar/" target="_blank" rel="noopener noreferrer" class="text-[#46734b] underline underline-offset-4 hover:text-[#365c3b]">LinkedIn</a>, <a href="https://scholar.google.com/citations?hl=id&user=Fa09tToAAAAJ" target="_blank" rel="noopener noreferrer" class="text-[#46734b] underline underline-offset-4 hover:text-[#365c3b]">Google Scholar</a>, and <a href="https://erza.substack.com/" target="_blank" rel="noopener noreferrer" class="text-[#46734b] underline underline-offset-4 hover:text-[#365c3b]">Substack</a>.
+      <span class="block mt-6">See my work on <a href="https://www.linkedin.com/in/erza-aimar/" target="_blank" rel="noopener noreferrer" class="text-[#2f6b3f] underline underline-offset-4 hover:text-[#255632]">LinkedIn</a>, <a href="https://scholar.google.com/citations?hl=id&user=Fa09tToAAAAJ" target="_blank" rel="noopener noreferrer" class="text-[#2f6b3f] underline underline-offset-4 hover:text-[#255632]">Google Scholar</a>, and <a href="https://erza.substack.com/" target="_blank" rel="noopener noreferrer" class="text-[#2f6b3f] underline underline-offset-4 hover:text-[#255632]">Substack</a>.
     `,
-    image: "/erza pp.jpg",
+    image: "/erza-pp.jpg",
   },
 };
-
-// #5755ff
