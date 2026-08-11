@@ -9,7 +9,7 @@ const { name, specialty, summary, email } = Astro.props;
 <section class="flex min-h-[calc(100vh-90px)] items-center">
   <div class="mx-auto w-full max-w-5xl -translate-y-8 px-8 py-16 lg:px-12">
 
-    <h1 class="max-w-4xl text-6xl font-bold leading-[0.95] tracking-tight text-[#171b18] sm:text-7xl lg:text-8xl">
+    <h1 class="max-w-4xl text-5xl font-bold leading-[0.98] tracking-tight text-[#171b18] sm:text-6xl lg:text-7xl">
       {name} <span class="font-normal text-[#59615a]">(萬俊陽)</span>
     </h1>
 
@@ -17,17 +17,17 @@ const { name, specialty, summary, email } = Astro.props;
       {specialty}
     </h2>
 
-    <p class="mt-7 max-w-3xl text-lg font-normal leading-relaxed text-[#59615a] sm:text-xl">
+    <p class="mt-7 max-w-3xl text-xl font-normal leading-relaxed text-[#59615a] sm:text-2xl">
       {summary}
     </p>
 
-<a
-  class="mt-9 inline-flex items-center gap-4 rounded-full bg-[#46734b] px-8 py-4 text-base font-semibold !text-[#ffffff] transition-colors hover:bg-[#365c3b]"
-  href={`mailto:${email}`}
->
-  Get in Touch
-  <span aria-hidden="true" class="text-lg !text-[#ffffff]">→</span>
-</a>
+    <a
+      class="mt-9 inline-flex items-center gap-4 rounded-full bg-[#46734b] px-8 py-4 text-base font-semibold !text-[#ffffff] transition-colors hover:bg-[#365c3b]"
+      href={`mailto:${email}`}
+    >
+      Get in Touch
+      <span aria-hidden="true" class="text-lg !text-[#ffffff]">→</span>
+    </a>
 
   </div>
 </section>
