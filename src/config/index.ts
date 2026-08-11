@@ -161,7 +161,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       title:
         "Pop Goes the Identity: Tzuyu’s Return Concert and the Negotiation of Taiwanese Identity",
-      publication: "Global Taiwan Brief, Global Taiwan Institute",
+      publication: "Global Taiwan Brief, Global Taiwan Institute (Washington D.C.)",
       date: "February 2026",
     },
     {
